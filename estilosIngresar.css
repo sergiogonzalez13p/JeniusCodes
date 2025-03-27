@@ -1,0 +1,104 @@
+.principalIngresar{
+    background-color: white;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   animation-name: fondo;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+
+}
+
+
+@keyframes fondo{
+    0%{
+        background: linear-gradient(90deg, gainsboro, gray );
+    }
+    100%{
+        background: linear-gradient(90deg, gray, gainsboro);
+    }
+}
+
+.marco{
+    width: 328px;
+    height: 550px;
+   box-shadow: 0px 0px 10px 10px;
+}
+
+.arriba{
+    background-color: black;
+    width: 308px;
+    height: 35px;
+   border: 1px solid black;
+   border-bottom: none;
+   padding: 10px;
+
+}
+.Registrarse{
+    position: relative;
+    left: 190px;
+top: -10px;
+}
+
+.ingresar{
+    
+    border: 1px solid black;
+    border-top: none;
+    width: 328px;
+    height: 500px;
+    animation-name: color ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.login{
+    position: relative;
+    left: 110px;
+    top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+
+.cajaTexto{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px indigo;
+    outline: none;
+    margin: 10px;
+    text-align: center;
+    
+}
+.botonIngresar{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    width: 260px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+.recordar{
+    position: relative;
+    top: 20px;
+}
+
+.botonIngresar:hover{
+    background-color: indigo;
+    color: white;
+    font-size: 30px;
+}

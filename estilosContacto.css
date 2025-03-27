@@ -1,0 +1,88 @@
+.principalContacto{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto{
+    border: 1px solid black;
+    
+    width: 320px;
+    height: 500px;
+    box-shadow: 0px 0px 5px 5px black;
+    animation-name: color ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    
+
+}
+
+
+
+@keyframes color{
+    0%{
+background-color: black;
+position: absolute;
+left: 0px;
+    }
+    25%{
+background-color: indigo;
+position:absolute ;
+left: 1580px;
+
+    }
+    50%{
+background-color: rgb(0, 73, 168);
+position: absolute;
+left: 500px;
+    }
+    100%{
+ background-color: fuchsia;
+position: absolute;
+left: 800px;
+opacity: 0%;
+
+    }
+}
+
+
+
+.login{
+    position: relative;
+    left: 110px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+.cajaTexto{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px indigo;
+    outline: none;
+    margin: 10px;
+    text-align: center;
+    
+}
+.botonContacto{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    width: 260px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.botonContacto:hover{
+    background-color: indigo;
+    color: white;
+    font-size: 30px;
+}
