@@ -11,10 +11,10 @@
 }
 @keyframes fondo{
     0%{
-        background: linear-gradient(90deg, gainsboro, gray );
+        background: linear-gradient(90deg, rgb(0, 0, 0), rgb(28, 3, 138) );
     }
     100%{
-        background: linear-gradient(90deg, gray, gainsboro);
+        background: linear-gradient(90deg,  rgb(28, 3, 138), rgb(0, 0, 0) );
     }
 }
 .texto{

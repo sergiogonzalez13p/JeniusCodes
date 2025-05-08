@@ -15,7 +15,7 @@
     box-shadow: 0px 0px 5px 5px black;
     animation-name: color ;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: initial;
 
     
 
@@ -44,7 +44,7 @@ left: 500px;
  background-color: fuchsia;
 position: absolute;
 left: 800px;
-opacity: 0%;
+
 
     }
 }
