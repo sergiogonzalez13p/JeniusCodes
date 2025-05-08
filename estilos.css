@@ -34,9 +34,9 @@ margin-top: 30px;
     
 }
 .botoningresar:hover{
-    color: fuchsia;
+    color: indigo;
     font-size: 20px;
-    border: 1px solid fuchsia;
+    border: 1px solid indigo;
     padding: 20px;
 }
 .titulo{
@@ -52,7 +52,7 @@ margin-top: 30px;
     color: white;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 3px 3px 3px fuchsia;
+    text-shadow: 3px 3px 3px indigo;
 }
 nav{
     background-color: black;
@@ -61,7 +61,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: color  rgb(88, 40, 176);
+    box-shadow: color indigo;
     opacity: 85%;
 }
 nav li{
